@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <title>Quantam Login Page</title>
+</head>
+<body>
+    <div class="header">
+        <img src="loginimage/" alt="Quantam Logo" class="logo">
+    </div>
+
+    <div class="formpage">
+        <form action="POST">
+            <div class="formheading">
+                <a href="#" class="arrow"><img src="loginimage//back.svg" alt="back arrow"></a>
+                <h1 class="heading">Log In With Quantam</h1>    
+            </div>
+
+            <div class="form-group row radiobuttons">
+                <div class="col-sm-9">
+                    <input type="radio" id="district" name="fav_language" value="District" class="big" checked>District
+                    <input type="radio" id="indsch" name="fav_language" value="Independent School" class="big">Independent-School
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-9">
+                    <label class="col-sm-3 col-form-label" id="state">State*</label>
+                    <select name="state" id="state" class="dropdown">
+                        <option value="alabama">Alabama</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-9">
+                    <label class="col-sm-3 col-form-label" id="district">District*</label>
+                    <select name="district" id="district" class="dropdown">
+                        <option value="alabama">Alabama School District</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-9">
+                    <input type="text" name="email" id="email" placeholder="Username/Email ID*" class="form-control email">
+                    <a href="#"class="forget">FORGET USERNAME?</a>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-9 pass">
+                    <input type="password" name="password" id="password" placeholder="Password*" class="passwordfield">
+                    <img src="loginimage/preview.svg" alt="show" class="eye">
+                    
+                </div>
+                <a href="#" class="forget">FORGET PASSWORD</a>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-9">
+                    <input type="checkbox" name="remember" id="remeber" class="big" checked>Remember Me
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-9 offset-sm-3 loginbutton">
+                    <button type="submit" class="login">LOG IN</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+        <p class="footerheading">About | Contact us</p>
+
+        <div class="footer">
+            <img src="loginimage/logo.svg" alt="Quantam logo" class="footerlogo">
+            <span class="tagline">| Copyright 2020-2021 &nbsp Zeus Systems Pvt. Ltd. &nbsp All rights reserved.</span>
+        </div>
+
+</body>
+</html>
