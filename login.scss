@@ -1,0 +1,230 @@
+$color1:#EEEEEE;
+$color2:#FFFFFF;
+$color3:#3AC7EC;
+$color4:#222222;
+$color5:#1F7A54;
+$color6:#666666;
+$color7:#3FD28B;
+$color8:#E0E1E1;
+
+body{
+    background-color: $color1;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    font-family: Quicksand;
+
+    .header{
+        background-image: url('images/headerimage.png');
+        background-size:auto;
+
+        .logo{
+            width: 200px;
+            padding: 10px 10px;
+        }
+    
+    }
+
+    .formpage{
+        display: grid;
+        width: 600px;
+        background-color: #FFFFFF;
+        border-top: 5px solid #3AC7EC;
+        align-items: center;
+        margin: 20px auto;
+        border-radius: 3px;
+        justify-content: center;
+
+        .formheading{
+            text-align: center;
+            font: normal normal medium 24px/28px Quicksand;
+            letter-spacing: 0px;
+            color: #222222;
+            opacity: 1;
+            display: grid;
+            grid-template-columns: repeat(9, 12fr);
+            grid-template-areas:
+                "a a b b b b b b"
+                "a a b b b b b b";
+            justify-content: space-around;
+            .arrow {
+                grid-area: a;
+                display: flex;
+                      align-items: center;
+                      justify-content: flex-start;
+                      padding: 5px 5px;
+              }
+              .heading {
+                grid-area: b;
+                display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      padding-right:10px    
+              }
+        }
+
+        .radiobuttons{
+            margin-top: 10px;
+            display: flex;
+            word-spacing: 50px;
+            margin-bottom: 20px;
+
+            .big{
+                width: 20px; 
+                height: 24px; 
+                accent-color: #1F7A54;
+                font: normal normal medium 16px/20px Quicksand;
+                margin: 5px ;
+                vertical-align: middle;
+            }
+        
+        }
+
+        .dropdown{
+            border: none;
+            border-bottom: 1px solid #666666;
+            outline: none;
+            border-radius: 0px;
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-family: Quicksand;
+        }
+        
+          #state{
+            text-align: left;
+            font: normal normal medium 12px/16px Quicksand;
+            letter-spacing: 0px;
+            color: #666666;
+            opacity: 1;
+            padding-top: 10px;
+        }
+        
+          #district{
+            text-align: left;
+            font: normal normal medium 12px/16px Quicksand;
+            letter-spacing: 0px;
+            color: #666666;
+            opacity: 1;
+            padding-top: 10px;
+        }
+
+        input[type=text]{
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid #666666;
+            outline: none;
+            border-radius: 0px;
+            width: 100%;
+            font-family: Quicksand;
+            font-size: 16px;
+            letter-spacing: 0px;
+            color: #666666;
+            margin-top: 25px;
+        }
+        
+        .forget
+        {
+            display: grid;
+            text-align: right;
+            justify-content: right;
+            color: #1F7A54;
+            text-decoration: none;
+        }
+
+        input[type=password]{
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid #666666;
+            outline: none;
+            border-radius: 0px;
+            width: 100%;
+            font-family: Quicksand;
+            font-size: 16px;
+            letter-spacing: 0px;
+            color: #666666;
+            margin-top: 25px;
+        }
+
+        .pass{
+            display: flex;
+
+            .eye{
+                display: flex;
+                margin-bottom:0px;
+                border-bottom: 1px solid #666666;
+            }
+            .passwordfield{
+                display: flex ;
+            }           
+        }
+
+        #remeber{
+            width: 18px;
+            height: 24px;
+        }
+
+        .loginbutton{
+            display: flex;
+            justify-content: center;
+            margin-top: 14px;
+            margin-bottom: 24px;
+
+            .login{
+                width: 216px;
+                height: 40px;
+                border:none;
+                background: #3FD28B 0% 0% no-repeat padding-box;
+                opacity: 1;
+            }
+        }
+
+        .footerheading{
+            text-align: center;
+            margin-top: 20px;
+            font: normal normal medium 14px/18px Quicksand;
+            color: #1F7A54;
+        }
+
+        .footer{
+            background: #E0E1E1 0% 0% no-repeat padding-box;
+            margin-bottom: 10px;
+            text-align: center;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 12px;
+
+            .footerlogo{
+                vertical-align: middle;
+            }
+            
+            .tagline{
+                vertical-align: center;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    body{
+        background-color: $color1;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 100%;
+        font-family: Quicksand;
+    }
+
+    .header{
+        background-image: url('images/headerimage.png');
+        background-size:auto;
+    
+    }
+    
+    .formpage{
+        width: auto;
+        margin: 20px auto;
+    }
+}
