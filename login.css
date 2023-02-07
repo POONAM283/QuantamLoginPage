@@ -151,13 +151,13 @@ body .formpage .loginbutton .login {
   background: #3FD28B 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-body .formpage .footerheading {
+body .footerheading {
   text-align: center;
   margin-top: 20px;
   font: normal normal medium 14px/18px Quicksand;
   color: #1F7A54;
 }
-body .formpage .footer {
+body .footer {
   background: #E0E1E1 0% 0% no-repeat padding-box;
   margin-bottom: 10px;
   text-align: center;
@@ -165,10 +165,10 @@ body .formpage .footer {
   padding-right: 5px;
   font-size: 12px;
 }
-body .formpage .footer .footerlogo {
+body .footer .footerlogo {
   vertical-align: middle;
 }
-body .formpage .footer .tagline {
+body .footer .tagline {
   vertical-align: center;
 }
 

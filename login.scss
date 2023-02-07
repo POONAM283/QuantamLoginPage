@@ -180,32 +180,31 @@ body{
                 opacity: 1;
             }
         }
-
-        .footerheading{
-            text-align: center;
-            margin-top: 20px;
-            font: normal normal medium 14px/18px Quicksand;
-            color: $color5;
-        }
-
-        .footer{
-            background: $color8 0% 0% no-repeat padding-box;
-            margin-bottom: 10px;
-            text-align: center;
-            padding-left: 5px;
-            padding-right: 5px;
-            font-size: 12px;
-
-            .footerlogo{
-                vertical-align: middle;
-            }
-            
-            .tagline{
-                vertical-align: center;
-            }
-        }
-
     }
+    .footerheading{
+        text-align: center;
+        margin-top: 20px;
+        font: normal normal medium 14px/18px Quicksand;
+        color: $color5;
+    }
+
+    .footer{
+        background: $color8 0% 0% no-repeat padding-box;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+
+        .footerlogo{
+            vertical-align: middle;
+        }
+            
+        .tagline{
+            vertical-align: center;
+        }
+    }
+
 
 }
 
