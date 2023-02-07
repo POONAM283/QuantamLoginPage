@@ -6,7 +6,7 @@ body {
   font-family: Quicksand;
 }
 body .header {
-  background-image: url("images/headerimage.png");
+  background-image: url("loginimage/headerimage.png");
   background-size: auto;
 }
 body .header .logo {
@@ -136,6 +136,7 @@ body .formpage .pass .passwordfield {
 body .formpage #remeber {
   width: 18px;
   height: 24px;
+  vertical-align: middle;
 }
 body .formpage .loginbutton {
   display: flex;

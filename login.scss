@@ -15,7 +15,7 @@ body{
     font-family: Quicksand;
 
     .header{
-        background-image: url('images/headerimage.png');
+        background-image: url('loginimage/headerimage.png');
         background-size:auto;
 
         .logo{
@@ -28,8 +28,8 @@ body{
     .formpage{
         display: grid;
         width: 600px;
-        background-color: #FFFFFF;
-        border-top: 5px solid #3AC7EC;
+        background-color: $color2;
+        border-top: 5px solid $color3;
         align-items: center;
         margin: 20px auto;
         border-radius: 3px;
@@ -39,7 +39,7 @@ body{
             text-align: center;
             font: normal normal medium 24px/28px Quicksand;
             letter-spacing: 0px;
-            color: #222222;
+            color: $color4;
             opacity: 1;
             display: grid;
             grid-template-columns: repeat(9, 12fr);
@@ -72,7 +72,7 @@ body{
             .big{
                 width: 20px; 
                 height: 24px; 
-                accent-color: #1F7A54;
+                accent-color: $color5;
                 font: normal normal medium 16px/20px Quicksand;
                 margin: 5px ;
                 vertical-align: middle;
@@ -82,7 +82,7 @@ body{
 
         .dropdown{
             border: none;
-            border-bottom: 1px solid #666666;
+            border-bottom: 1px solid $color6;
             outline: none;
             border-radius: 0px;
             display: flex;
@@ -96,7 +96,7 @@ body{
             text-align: left;
             font: normal normal medium 12px/16px Quicksand;
             letter-spacing: 0px;
-            color: #666666;
+            color: $color6;
             opacity: 1;
             padding-top: 10px;
         }
@@ -105,7 +105,7 @@ body{
             text-align: left;
             font: normal normal medium 12px/16px Quicksand;
             letter-spacing: 0px;
-            color: #666666;
+            color: $color6;
             opacity: 1;
             padding-top: 10px;
         }
@@ -113,14 +113,14 @@ body{
         input[type=text]{
             box-sizing: border-box;
             border: none;
-            border-bottom: 1px solid #666666;
+            border-bottom: 1px solid $color6;
             outline: none;
             border-radius: 0px;
             width: 100%;
             font-family: Quicksand;
             font-size: 16px;
             letter-spacing: 0px;
-            color: #666666;
+            color: $color6;
             margin-top: 25px;
         }
         
@@ -129,21 +129,21 @@ body{
             display: grid;
             text-align: right;
             justify-content: right;
-            color: #1F7A54;
+            color: $color5;
             text-decoration: none;
         }
 
         input[type=password]{
             box-sizing: border-box;
             border: none;
-            border-bottom: 1px solid #666666;
+            border-bottom: 1px solid $color6;
             outline: none;
             border-radius: 0px;
             width: 100%;
             font-family: Quicksand;
             font-size: 16px;
             letter-spacing: 0px;
-            color: #666666;
+            color: $color6;
             margin-top: 25px;
         }
 
@@ -153,7 +153,7 @@ body{
             .eye{
                 display: flex;
                 margin-bottom:0px;
-                border-bottom: 1px solid #666666;
+                border-bottom: 1px solid $color6;
             }
             .passwordfield{
                 display: flex ;
@@ -163,6 +163,7 @@ body{
         #remeber{
             width: 18px;
             height: 24px;
+            vertical-align: middle;
         }
 
         .loginbutton{
@@ -175,7 +176,7 @@ body{
                 width: 216px;
                 height: 40px;
                 border:none;
-                background: #3FD28B 0% 0% no-repeat padding-box;
+                background: $color7 0% 0% no-repeat padding-box;
                 opacity: 1;
             }
         }
@@ -184,11 +185,11 @@ body{
             text-align: center;
             margin-top: 20px;
             font: normal normal medium 14px/18px Quicksand;
-            color: #1F7A54;
+            color: $color5;
         }
 
         .footer{
-            background: #E0E1E1 0% 0% no-repeat padding-box;
+            background: $color8 0% 0% no-repeat padding-box;
             margin-bottom: 10px;
             text-align: center;
             padding-left: 5px;
